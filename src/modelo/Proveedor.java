@@ -5,7 +5,7 @@ package modelo;
  */
 public class Proveedor {
     private int id_Proveedor;
-    private String nombre, telefono, direccion, email;
+    private String nombre, telefono, direccion, email, resultado;
 
     public Proveedor() {
     }
@@ -57,6 +57,12 @@ public class Proveedor {
     public void setEmail(String email) {
         this.email = email;
     }
-    
-    
+
+    public String getResultado() {
+        return resultado;
+    }
+
+    public void setResultado(String resultado) {
+        this.resultado = resultado;
+    }
 }
