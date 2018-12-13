@@ -1,11 +1,13 @@
 package modelo;
+
 /**
  *
  * @author Kristal
  */
 public class Disco {
+
     private int id_disco, precio, id_proveedor;
-    private String nombre, autor, genero;
+    private String nombre, autor, genero, resultado;
 
     public Disco() {
     }
@@ -66,6 +68,12 @@ public class Disco {
     public void setGenero(String genero) {
         this.genero = genero;
     }
-    
-    
+
+    public String getResultado() {
+        return resultado;
+    }
+
+    public void setResultado(String resultado) {
+        this.resultado = resultado;
+    }
 }
